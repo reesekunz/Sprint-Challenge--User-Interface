@@ -165,16 +165,15 @@ footer nav a {
 }
 
 .top-picture {
-    margin-left: 200px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+ display: block;
+ margin: auto;
+}
 
 }
 
 .about {
+
     text-decoration: none;
     color: black;
 }
@@ -185,12 +184,9 @@ footer nav a {
 }
 
 .top-picture-about {
-    margin-left: 200px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: block;
+ margin: auto;
+}
 
 }
 
@@ -226,3 +222,7 @@ button {
     font-weight: bold;
 }
 
+.about {
+    text-decoration: none;
+    color: black;
+}
